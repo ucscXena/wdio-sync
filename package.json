@@ -1,6 +1,6 @@
 {
-  "name": "wdio-sync",
-  "version": "0.5.13",
+  "name": "wdio-sync-xena",
+  "version": "0.5.13-xena.0",
   "description": "A WebdriverIO plugin. Helper module to run WebdriverIO commands synchronously.",
   "main": "build/index.js",
   "scripts": {
