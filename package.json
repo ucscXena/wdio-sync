@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/wdio-sync.git"
+    "url": "git+https://github.com/ucscXena/wdio-sync.git"
   },
   "keywords": [
     "webdriverio",
