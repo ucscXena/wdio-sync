@@ -182,7 +182,8 @@ let wrapCommand = function (fn, commandName, beforeCommand, afterCommand) {
                     /**
                      * extend protoype of result so people can call browser.element(...).click()
                      */
-                    future.return(applyPrototype.call(this, commandResult))
+                    wrapCommands(commandPromise, beforeCommand, afterCommand)
+                    return future.return(applyPrototype.call(commandPromise, commandResult))
                 }, future.throw.bind(future))
                 return future.wait()
             } catch (e) {
